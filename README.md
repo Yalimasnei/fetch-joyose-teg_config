@@ -1,4 +1,4 @@
-﻿# Joyose TEG 云控配置拉取
+﻿# Joyose-teg_config拉取器
 
 用于拉取 Joyose 下发到 `teg_config.db` 的云控调度配置。
 
@@ -87,6 +87,5 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\fetch-joyose-teg_config.ps
 ## 说明
 
 - 脚本默认输出目录就是脚本运行目录。
-- 脚本不会读取本地 `build.prop` 来决定压缩包名称。
 - 默认只保留 `[booster_config].json` 和 `[common_config].json` 到 zip 内。
 - 如果看到 PowerShell 或 curl 的 TLS 连接警告，脚本会继续尝试其他请求方式；最终看到 zip 生成即为成功。
