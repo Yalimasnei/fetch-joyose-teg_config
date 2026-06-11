@@ -1,1 +1,0 @@
-# pull_joyose_teg_config
