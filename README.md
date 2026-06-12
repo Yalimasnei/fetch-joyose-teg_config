@@ -1,6 +1,6 @@
 ﻿# fetch-joyose-teg_config
 
-用于拉取 Joyose 下发到设备的调度配置。
+用于拉取 Joyose 云端的配置。
 
 ## 直接使用
 
